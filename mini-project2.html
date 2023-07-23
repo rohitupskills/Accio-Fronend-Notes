@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="first_name">First Name</label></td>
+                <td><input type="text" placeholder="Rohit" id="first_name" name="first_name"></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name</label></td>
+                <td><input type="text" placeholder="Maurya" id="last_name" name="last_name"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><label for="male"><input type="radio" id="male" value="male" name="gender">Male</label><label for="female"><input type="radio" id="female" value="female" name="gender">Female</label></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" id="dob" placeholder="dd/mm/yyyy" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select name="country" id="country" multiple>
+                        <option value="india">India</option>
+                        <option value="uae">UAE</option>
+                        <option value="china">China</option>
+                        <option value="america">America</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="intrest">Intrest</label></td>
+                <td>
+                    <label for="coding">
+                        <input type="checkbox" id="coding" name="check" value="coding" >Coding
+                    </label>
+                    <label for="singing">
+                        <input type="checkbox" id="singing" name="check" value="singing" >Singing
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
