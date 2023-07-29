@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: blue;*/
+    font-family:Arial, Helvetica, sans-serif;
+
+} 
+.navbar{
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    position: sticky;
+    top: 100px;
+    
+}
+.navbar>ul{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.navbar>ul>li{
+   list-style: none;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: white;
+ }
+ .navbar>ul>span{
+  
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.navbar>ul>span>a{
+    color: white;
+  text-decoration: none;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: white;
+}
+.box1:hover{
+    background-color: red;
+}
+.parent-box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    top: 110px;
+    left: 85vw;
+    color: white;
+   text-align: center;
+   /* padding-top: 80px; */
+
+}
+.navbar:hover{
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    top: 0px
+    
+}
+.parent{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    position:relative;
+}
+.child{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+}
+.child:hover{
+ display: none;
+}
+.parent:hover{
+    color: white;
+    background-color: black;
+}
