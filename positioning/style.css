@@ -91,3 +91,14 @@
     color: white;
     background-color: black;
 }
+.box3{
+    display: inline;
+}
+/* span{
+    display: block;
+} */
+.span-inline-block{
+    display: inline-block;
+    top: 20px;
+    bottom: 20px;
+}

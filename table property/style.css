@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+th{
+    border-bottom: 2px solid green;
+    padding: 20px;
+    border-right: 2px solid;
+}
+td{
+    border-bottom: 2px solid blue;
+    border-right: 2px solid red;
+    text-align: center;
+    vertical-align: center;
+    height: 100px;
+    width: 100px;
+    /* padding-top: 20px; */
+
+
+}
+.gradient{
+    height: 400px;
+    width: 400px;
+    /* background-image: linear-gradient(to top,red,green); */
+    /* background-image: linear-gradient(to right,red,green); */
+    /* background-image: linear-gradient(to bottom right,red,green); */
+    background-image: linear-gradient(to bottom right,red,green,white,blue);
+    
+
+}
+.flag{
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to top,orange,white,green);
+}
+.accio{
+    width: 180px;
+    /* margin-bottom: 500px; */
+    background-image: linear-gradient(to right,blue,purple);
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+cursor: pointer;
+}
+.accio:hover{
+  box-shadow: 2px 2px 4px purple ;
+}
+.gradiel{
+    height: 200px;
+    width: 200px;
+    /* background-image: radial-gradient([shape]at [postion],stop1,stop2); */
+    background-image:radial-gradient(circle at top,red,green);
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid;
+    margin: 10px;
+}
+.flex-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar{
+    height: 60px;
+    width: 97vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+.link{
+    display: flex;
+    justify-content:space-evenly;
+    flex: 5;
+    cursor: pointer;
+    font-size: 20px;
+}
+.company{
+    flex: 1;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.account{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.account>button{
+ color: white;
+ padding: 10px;
+ background-color: red;
+ border-radius: 5px;
+ border: none;
+ cursor: progress;
+}
